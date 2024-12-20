@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "savemoney",
+    "slug": "savemoney",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#aeff7f"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.henry.savemoney"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#aeff7f"
+      },
+      "package": "com.henry.savemoney"
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "plugins": [
+      "expo-sqlite"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ffd045f9-ab92-41c8-974a-e0a84a0be792"
+      }
+    }
+  }
+}
